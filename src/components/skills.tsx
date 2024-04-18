@@ -18,7 +18,7 @@ export function Skills() {
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-sans text-black">My Skills</h2>
             <p className="max-w-[700px] text-slate-950 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-800">
-              I'm proficient in a wide range of technologies and frameworks that enable me to deliver efficient and
+              I am proficient in a wide range of technologies and frameworks that enable me to deliver efficient and
               scalable automation solutions as well as full-stack web applications.
             </p>
           </div>
