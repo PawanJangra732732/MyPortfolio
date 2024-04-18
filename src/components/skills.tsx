@@ -23,7 +23,7 @@ export function Skills() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl grid-cols-2 gap-6 py-12 sm:grid-cols-3 md:grid-cols-4 lg:gap-12">
+        <div className="mx-auto grid w-full grid-cols-2 gap-6 py-12 sm:grid-cols-3 md:grid-cols-4 lg:gap-12">
           {skills.map((skill, index) => (
             <div key={index} className="flex flex-col items-center justify-center space-y-2">
               <img
