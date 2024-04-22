@@ -1,0 +1,9 @@
+/* TypingEffect.css */
+p span /* Add more classes as needed */ {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Adjust transition duration as needed */
+}
+
+.show {
+    opacity: 1;
+}

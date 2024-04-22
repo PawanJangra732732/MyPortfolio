@@ -1,3 +1,5 @@
+import TypingEffect from "./typing-effect";
+
 export function Skills() {
   // Array of skills with their names and image URLs
   const skills = [
@@ -17,13 +19,15 @@ export function Skills() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-sans text-black">My Skills</h2>
-            <p className="max-w-[700px] text-slate-950 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-800">
+            <TypingEffect text="I am proficient in a wide range of technologies and frameworks that enable me to deliver efficient and scalable automation solutions as well as full-stack web applications." />
+
+            {/* <p className="max-w-[700px] text-slate-950 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-800">
               I am proficient in a wide range of technologies and frameworks that enable me to deliver efficient and
               scalable automation solutions as well as full-stack web applications.
-            </p>
+            </p> */}
           </div>
         </div>
-        <div className="mx-auto grid w-full grid-cols-2 gap-6 py-12 sm:grid-cols-3 md:grid-cols-4 lg:gap-12">
+        <div className="mx-auto grid max-w-5xl grid-cols-2 gap-6 py-12 sm:grid-cols-3 md:grid-cols-4 lg:gap-12">
           {skills.map((skill, index) => (
             <div key={index} className="flex flex-col items-center justify-center space-y-2">
               <img
